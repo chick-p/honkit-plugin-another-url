@@ -16,6 +16,14 @@
   "bugs": {
     "url": "https://github.com/chick-p/honkit-plugin-another-url/issues"
   },
+  "scripts": {
+    "lint": "run-s lint:*",
+    "lint:prettier": "prettier --check .",
+    "lint:eslint": "eslint --ext .js",
+    "fix": "run-s fix:*",
+    "fix:prettier": "prettier -w .",
+    "fix:eslint": "npm run lint:eslint --fix"
+  },
   "devDependencies": {
     "eslint": "^8.29.0",
     "eslint-config-prettier": "^8.5.0",
