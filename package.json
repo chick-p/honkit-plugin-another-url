@@ -1,0 +1,19 @@
+{
+  "name": "honkit-plugin-another-url",
+  "description": "Add another urls to a Honkit page",
+  "main": "index.js",
+  "version": "0.0.1",
+  "license": "Apache-2.0",
+  "author": "chick-p <chick.p.1120@gmail.com>",
+  "homepage": "https://github.com/chick-p/honkit-plugin-another-url",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chick-p/honkit-plugin-another-url.git"
+  },
+  "engines": {
+    "honkit": ">=3.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/chick-p/honkit-plugin-another-url/issues"
+  }
+}
