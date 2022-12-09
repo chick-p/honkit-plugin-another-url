@@ -15,5 +15,8 @@
   },
   "bugs": {
     "url": "https://github.com/chick-p/honkit-plugin-another-url/issues"
+  },
+  "devDependencies": {
+    "eslint": "^8.29.0"
   }
 }
