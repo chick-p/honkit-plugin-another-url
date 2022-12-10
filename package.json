@@ -2,7 +2,7 @@
   "name": "honkit-plugin-another-url",
   "description": "Add another urls to a Honkit page",
   "main": "index.js",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "license": "Apache-2.0",
   "author": "chick-p <chick.p.1120@gmail.com>",
   "homepage": "https://github.com/chick-p/honkit-plugin-another-url",
