@@ -10,7 +10,11 @@ function buildContent(path) {
       <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <script>window.location.href='${encodedUri}'</script>
+        <script>
+          const hash = window.location.hash;
+          const query = window.location.search;
+          window.location.href = '${encodedUri}' + query + hash;
+        </script>
       </head>
     </html>`;
 }
