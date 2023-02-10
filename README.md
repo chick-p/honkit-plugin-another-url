@@ -33,10 +33,10 @@ For example:
 ```markdown
 ---
 anotherUrls:
-  - "/id/eternal-extream-permanent-link.html"
+  - "/id/external-permanent-link.html"
 ---
 
 # Title
 ```
 
-If you access to `book.example.com/id/eternal-extream-permanent-link.html`, redirect to the page that defined the front matter.
+If you access to `book.example.com/id/external-permanent-link.html`, redirect to the page that defined the front matter.
