@@ -19,7 +19,7 @@
   "scripts": {
     "lint": "run-s lint:*",
     "lint:prettier": "prettier --check .",
-    "lint:eslint": "eslint --ext .js",
+    "lint:eslint": "eslint *.js",
     "fix": "run-s fix:*",
     "fix:prettier": "prettier -w .",
     "fix:eslint": "npm run lint:eslint --fix"
@@ -29,5 +29,8 @@
     "eslint-config-prettier": "^9.1.0",
     "npm-run-all": "^4.1.5",
     "prettier": "^3.3.2"
+  },
+  "dependencies": {
+    "globals": "^15.6.0"
   }
 }
