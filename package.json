@@ -31,6 +31,6 @@
     "prettier": "^3.3.2"
   },
   "dependencies": {
-    "globals": "^15.6.0"
+    "globals": "^15.8.0"
   }
 }
