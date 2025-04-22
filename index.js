@@ -41,6 +41,8 @@ function pageHookHandler(page) {
     const anotherUrlPath = buildAnotherUrlPath(isIndexHtml, anotherUrl);
     output.writeFile(anotherUrlPath, buildContent(toUrlPath));
   });
+
+  return page;
 }
 
 function initHookHandler() {
