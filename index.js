@@ -16,6 +16,11 @@ function buildContent(path) {
           window.location.href = '${encodedUri}' + query + hash;
         </script>
       </head>
+      <body>
+        <section>
+          <p>Move to <a href="${encodedUri}">here</a>.</p>
+        </section>
+      </body>
     </html>`;
 }
 
