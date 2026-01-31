@@ -1,4 +1,4 @@
-const path = require("path");
+const path = require("node:path");
 
 const pluginName = "another-url";
 
@@ -26,7 +26,7 @@ function buildContent(path) {
 
 function buildAnotherUrlPath(isIndexHtml, anotherUrl) {
   if (isIndexHtml) {
-    return `${path.resolve("/", "/../" + anotherUrl)}/index.html`;
+    return `${path.resolve("/", `/../${anotherUrl}`)}/index.html`;
   }
   return path.resolve("/", anotherUrl);
 }

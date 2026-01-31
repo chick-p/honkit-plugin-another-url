@@ -17,21 +17,13 @@
     "url": "https://github.com/chick-p/honkit-plugin-another-url/issues"
   },
   "scripts": {
-    "lint": "run-s lint:*",
-    "lint:prettier": "prettier --check .",
-    "lint:eslint": "eslint *.js",
-    "fix": "run-s fix:*",
-    "fix:prettier": "prettier -w .",
-    "fix:eslint": "npm run lint:eslint --fix",
+    "fix": "biome check . --fix",
+    "lint": "biome check .",
     "test": "vitest run"
   },
   "devDependencies": {
-    "eslint": "^9.39.2",
-    "eslint-config-prettier": "^10.1.8",
-    "globals": "^17.2.0",
+    "@biomejs/biome": "^2.3.13",
     "honkit-tester": "^2.0.0",
-    "npm-run-all": "^4.1.5",
-    "prettier": "^3.8.1",
     "vitest": "^4.0.18"
   },
   "overrides": {
