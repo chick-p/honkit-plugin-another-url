@@ -22,7 +22,7 @@
     "test": "vitest run"
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.4.8",
+    "@biomejs/biome": "^2.4.9",
     "honkit-tester": "^2.0.0",
     "vitest": "^4.1.0"
   },
